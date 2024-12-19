@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+nav {
+    margin: 20px 0;
+}
+nav a {
+    margin: 0 15px;
+    color: #ffffff;
+    text-decoration: none;
+}
+section {
+    padding: 20px;
+    margin: 10px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    color: #35424a;
+}
+.skills, .projects, .reviews {
+    display: flex;
+    flex-wrap: wrap;
+}
+.skill, .project, .review {
+    flex: 1 1 30%;
+    margin: 10px;
+    padding: 10px;
+    background-color: #e7e7e7;
+    border-radius: 5px;
+    text-align: center;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #35424a;
+    color: #ffffff;
+}
+.socials {
+    margin-top: 20px;
+}
+.socials a {
+    margin: 0 10px;
+    color: #35424a;
+    text-decoration: none;
+}
